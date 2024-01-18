@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssured Test">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="REST APIs">
+		<classes>
+			<class name="com.simplilearn.resttesting.GetRequestTest"></class>
+			<class name="com.simplilearn.resttesting.PostRequestTest"></class>
+			<class name="com.simplilearn.resttesting.PutRequestTest"></class>
+			<class name="com.simplilearn.resttesting.PatchRequestTest"></class>
+			<class name="com.simplilearn.resttesting.DeleteRequestTest"></class>
+		</classes>
+	</test>
+	
+	<test name="SOAP APIs">
+		<classes>
+			<class name="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest"></class>
+			<class name="com.simplilearn.soaptesting.NumberToWordConversion"></class>
+		</classes>
+	</test>
+	
+	<test name="REST Auth">
+		<classes>
+			<class name="com.simplilearn.authtesting.AuthenticationTest"></class>
+		</classes>
+	</test>
+</suite>

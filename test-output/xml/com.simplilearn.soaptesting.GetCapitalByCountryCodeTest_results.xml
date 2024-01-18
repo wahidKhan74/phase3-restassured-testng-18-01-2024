@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SOAP APIs"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.673">
+  <properties />
+  
+  
+            <testcase name="postXMLRequestTest" time="0.635" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
+                <testcase name="postXMLRequestTest" time="0.670" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
+                <testcase name="postXMLRequestTest" time="0.719" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
+                <testcase name="postXMLRequestTest" time="0.649" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
+      
+</testsuite>

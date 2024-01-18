@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="REST APIs"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.585">
+  <properties />
+  
+  
+            <testcase name="putRequestTest" time="1.215" classname="com.simplilearn.resttesting.DeleteRequestTest" />
+                <testcase name="putRequestTest" time="1.182" classname="com.simplilearn.resttesting.DeleteRequestTest" />
+                <testcase name="putRequestTest" time="1.188" classname="com.simplilearn.resttesting.DeleteRequestTest" />
+      
+</testsuite>
