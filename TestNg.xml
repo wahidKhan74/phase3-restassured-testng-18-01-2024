@@ -25,6 +25,8 @@
 	<test name="REST Auth">
 		<classes>
 			<class name="com.simplilearn.authtesting.AuthenticationTest"></class>
+			<class name="com.simplilearn.authtesting.OauthAuthenticationTest"></class>
+			<class name="com.simplilearn.authtesting.SSLAuthenticationTest"></class>
 		</classes>
 	</test>
 </suite>

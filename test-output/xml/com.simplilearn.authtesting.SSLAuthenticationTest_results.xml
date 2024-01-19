@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="REST Auth"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.117">
+  <properties />
+  
+  
+            <testcase name="testSSLCertificate1" time="0.754" classname="com.simplilearn.authtesting.SSLAuthenticationTest" />
+                <testcase name="testSSLCertificate2" time="0.363" classname="com.simplilearn.authtesting.SSLAuthenticationTest" />
+      
+</testsuite>

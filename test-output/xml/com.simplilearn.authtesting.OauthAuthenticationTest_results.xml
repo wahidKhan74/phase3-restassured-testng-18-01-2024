@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="REST Auth"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.184">
+  <properties />
+  
+  
+            <testcase name="testAuthenticationToken" time="1.646" classname="com.simplilearn.authtesting.OauthAuthenticationTest" />
+                <testcase name="testAuthenticationBasedOnCredsToken" time="1.538" classname="com.simplilearn.authtesting.OauthAuthenticationTest" />
+      
+</testsuite>

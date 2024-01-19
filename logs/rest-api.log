@@ -1,0 +1,115 @@
+2024-01-19 12:14:05 INFO  GetRequestTest:18 Start :: GET All users test.
+2024-01-19 12:14:05 INFO  GetRequestTest:22 GET : URL https://reqres.in/api/users?page=2
+2024-01-19 12:14:09 INFO  GetRequestTest:37 Reponse :: {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2024-01-19 12:14:09 INFO  GetRequestTest:38 End :: GET All users test.
+2024-01-19 12:14:09 INFO  GetRequestTest:43 Start :: GET All users test with query parms.
+2024-01-19 12:14:09 INFO  GetRequestTest:51 GET : URL https://reqres.in/api/users?page=2
+2024-01-19 12:14:10 INFO  GetRequestTest:65 Reponse :: {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2024-01-19 12:14:10 INFO  GetRequestTest:66 End :: GET All users test with query parms.
+2024-01-19 12:14:10 INFO  GetRequestTest:71 Start :: GET user by {userId} test.
+2024-01-19 12:14:10 INFO  GetRequestTest:79 GET : URL https://reqres.in/api/users/7
+2024-01-19 12:14:10 INFO  GetRequestTest:89 Reponse :: {"data":{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2024-01-19 12:14:10 INFO  GetRequestTest:90 End :: GET user by {userId} test.
+2024-01-19 12:14:10 INFO  PostRequestTest:18 Start :: POST request test using rest assured.
+2024-01-19 12:14:10 INFO  PostRequestTest:24 Request Object:: PostData [name=Mike SMith, job=Dermotologist]
+2024-01-19 12:14:12 INFO  PostRequestTest:37 Response Object:: {"name":"Mike SMith","job":"Dermotologist","id":"924","createdAt":"2024-01-19T06:44:11.180Z"}
+2024-01-19 12:14:12 INFO  PostRequestTest:38 End :: POST request test using rest assured.
+2024-01-19 12:14:12 INFO  PutRequestTest:18 Start :: PUT request test using rest assured.
+2024-01-19 12:14:12 INFO  PutRequestTest:26 Request Object:: PostData [name=Mike SMith, job=QA/Tester]
+2024-01-19 12:14:13 INFO  PutRequestTest:39 Response :: {"name":"Mike SMith","job":"QA/Tester","id":"562","createdAt":"2024-01-19T06:44:12.538Z"}
+2024-01-19 12:14:13 INFO  PutRequestTest:40 End :: PUT request test using rest assured.
+2024-01-19 12:14:13 INFO  PatchRequestTest:18 Start :: PATCH request test using rest assured.
+2024-01-19 12:14:15 INFO  PatchRequestTest:38 Response :: {"name":"Mike SMith","job":"QA/Tester","id":"836","createdAt":"2024-01-19T06:44:13.923Z"}
+2024-01-19 12:14:15 INFO  PatchRequestTest:39 End :: PATCH request test using rest assured.
+2024-01-19 12:14:15 INFO  DeleteRequestTest:32 Start :: Delete user by {userId} test.
+2024-01-19 12:14:15 INFO  DeleteRequestTest:34 DELTE : URL https://reqres.in/api/users/=2
+2024-01-19 12:14:15 INFO  DeleteRequestTest:41 End :: Delete user test.
+2024-01-19 12:14:15 INFO  DeleteRequestTest:32 Start :: Delete user by {userId} test.
+2024-01-19 12:14:15 INFO  DeleteRequestTest:34 DELTE : URL https://reqres.in/api/users/=7
+2024-01-19 12:14:16 INFO  DeleteRequestTest:41 End :: Delete user test.
+2024-01-19 12:14:16 INFO  DeleteRequestTest:32 Start :: Delete user by {userId} test.
+2024-01-19 12:14:16 INFO  DeleteRequestTest:34 DELTE : URL https://reqres.in/api/users/=11
+2024-01-19 12:14:17 INFO  DeleteRequestTest:41 End :: Delete user test.
+2024-01-19 12:14:17 INFO  GetCapitalByCountryCodeTest:34 Start :: POST for country capital using XML using rest assured.
+2024-01-19 12:14:17 INFO  GetCapitalByCountryCodeTest:35 GET : URL http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso for IN country code.
+2024-01-19 12:14:18 INFO  GetCapitalByCountryCodeTest:58 Response Object:: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CapitalCityResult>New Delhi</m:CapitalCityResult>
+    </m:CapitalCityResponse>
+  </soap:Body>
+</soap:Envelope>
+2024-01-19 12:14:18 INFO  GetCapitalByCountryCodeTest:59 End :: POST for country capital using XML using rest assured.
+2024-01-19 12:14:18 INFO  GetCapitalByCountryCodeTest:34 Start :: POST for country capital using XML using rest assured.
+2024-01-19 12:14:18 INFO  GetCapitalByCountryCodeTest:35 GET : URL http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso for US country code.
+2024-01-19 12:14:19 INFO  GetCapitalByCountryCodeTest:58 Response Object:: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CapitalCityResult>Washington</m:CapitalCityResult>
+    </m:CapitalCityResponse>
+  </soap:Body>
+</soap:Envelope>
+2024-01-19 12:14:19 INFO  GetCapitalByCountryCodeTest:59 End :: POST for country capital using XML using rest assured.
+2024-01-19 12:14:19 INFO  GetCapitalByCountryCodeTest:34 Start :: POST for country capital using XML using rest assured.
+2024-01-19 12:14:19 INFO  GetCapitalByCountryCodeTest:35 GET : URL http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso for CA country code.
+2024-01-19 12:14:21 INFO  GetCapitalByCountryCodeTest:58 Response Object:: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CapitalCityResult>Ottawa</m:CapitalCityResult>
+    </m:CapitalCityResponse>
+  </soap:Body>
+</soap:Envelope>
+2024-01-19 12:14:21 INFO  GetCapitalByCountryCodeTest:59 End :: POST for country capital using XML using rest assured.
+2024-01-19 12:14:21 INFO  GetCapitalByCountryCodeTest:34 Start :: POST for country capital using XML using rest assured.
+2024-01-19 12:14:21 INFO  GetCapitalByCountryCodeTest:35 GET : URL http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso for ML country code.
+2024-01-19 12:14:22 INFO  GetCapitalByCountryCodeTest:58 Response Object:: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CapitalCityResult>Bamako</m:CapitalCityResult>
+    </m:CapitalCityResponse>
+  </soap:Body>
+</soap:Envelope>
+2024-01-19 12:14:22 INFO  GetCapitalByCountryCodeTest:59 End :: POST for country capital using XML using rest assured.
+2024-01-19 12:14:22 INFO  NumberToWordConversion:17 Start :: POST for Number conversion using XML
+2024-01-19 12:14:22 INFO  NumberToWordConversion:18 GET : URL https://www.dataaccess.com/webservicesserver/NumberConversion.wso
+2024-01-19 12:14:22 INFO  NumberToWordConversion:23 Amount in number :: 5078.099
+2024-01-19 12:14:25 INFO  NumberToWordConversion:43 Amount in words :: five thousand seventy eight dollars and nine cents
+2024-01-19 12:14:25 INFO  NumberToWordConversion:50 Response Object:: <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:NumberToDollarsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+      <m:NumberToDollarsResult>five thousand seventy eight dollars and nine cents</m:NumberToDollarsResult>
+    </m:NumberToDollarsResponse>
+  </soap:Body>
+</soap:Envelope>
+2024-01-19 12:14:25 INFO  NumberToWordConversion:51 End :: POST for Number conversion using XML
+2024-01-19 12:14:25 INFO  AuthenticationTest:20 Start :: Authentication with rest assured.
+2024-01-19 12:14:25 INFO  AuthenticationTest:22 POST : URL https://reqres.in/api/register
+2024-01-19 12:14:25 INFO  AuthenticationTest:26 Request Object :: User [email=eve.holt@reqres.in, password=pistol]
+2024-01-19 12:14:26 INFO  AuthenticationTest:44 Response Object :: {"id":4,"token":"QpwL5tke4Pnpja7X4"}
+2024-01-19 12:14:26 INFO  AuthenticationTest:45 End :: Authentication with rest assured.
+2024-01-19 12:14:26 INFO  OauthAuthenticationTest:23 Start :: Authentication Test Login user and get token.
+2024-01-19 12:14:26 INFO  OauthAuthenticationTest:25 POST : URL https://dummyjson.com/auth/login
+2024-01-19 12:14:26 INFO  OauthAuthenticationTest:29 Request Object :: UserInfo [username=kminchelle, password=0lelplR]
+2024-01-19 12:14:28 INFO  OauthAuthenticationTest:39 Response Object :: {"id":15,"username":"kminchelle","email":"kminchelle@qq.com","firstName":"Jeanne","lastName":"Halvorson","gender":"female","image":"https://robohash.org/Jeanne.png?set=set4","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsInVzZXJuYW1lIjoia21pbmNoZWxsZSIsImVtYWlsIjoia21pbmNoZWxsZUBxcS5jb20iLCJmaXJzdE5hbWUiOiJKZWFubmUiLCJsYXN0TmFtZSI6IkhhbHZvcnNvbiIsImdlbmRlciI6ImZlbWFsZSIsImltYWdlIjoiaHR0cHM6Ly9yb2JvaGFzaC5vcmcvSmVhbm5lLnBuZz9zZXQ9c2V0NCIsImlhdCI6MTcwNTY0NjY2NiwiZXhwIjoxNzA1NjUwMjY2fQ.IElq6ifkwFuuhy7yT0v16KWpmR8D2VHnUwDJG5Edbv8"}
+2024-01-19 12:14:28 INFO  OauthAuthenticationTest:40 End :: Authentication Test Login user and get token.
+2024-01-19 12:14:28 INFO  OauthAuthenticationTest:46 Start :: Get current auth user from token.
+2024-01-19 12:14:28 INFO  OauthAuthenticationTest:47 POST : URL https://dummyjson.com/auth/me
+2024-01-19 12:14:28 INFO  OauthAuthenticationTest:60 Request Token :: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsInVzZXJuYW1lIjoia21pbmNoZWxsZSIsImVtYWlsIjoia21pbmNoZWxsZUBxcS5jb20iLCJmaXJzdE5hbWUiOiJKZWFubmUiLCJsYXN0TmFtZSI6IkhhbHZvcnNvbiIsImdlbmRlciI6ImZlbWFsZSIsImltYWdlIjoiaHR0cHM6Ly9yb2JvaGFzaC5vcmcvSmVhbm5lLnBuZz9zZXQ9c2V0NCIsImlhdCI6MTcwNTY0NjY2NywiZXhwIjoxNzA1NjUwMjY3fQ.aKmvOjcSN9yzRgJahqaAg6BqvnkSZn6kua5K44EKXwQ
+2024-01-19 12:14:29 INFO  OauthAuthenticationTest:73 Response Object :: {
+    "id": 15,
+    "username": "kminchelle",
+    "email": "kminchelle@qq.com",
+    "firstName": "Jeanne",
+    "lastName": "Halvorson",
+    "gender": "female",
+    "image": "https://robohash.org/Jeanne.png?set=set4",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsInVzZXJuYW1lIjoia21pbmNoZWxsZSIsImVtYWlsIjoia21pbmNoZWxsZUBxcS5jb20iLCJmaXJzdE5hbWUiOiJKZWFubmUiLCJsYXN0TmFtZSI6IkhhbHZvcnNvbiIsImdlbmRlciI6ImZlbWFsZSIsImltYWdlIjoiaHR0cHM6Ly9yb2JvaGFzaC5vcmcvSmVhbm5lLnBuZz9zZXQ9c2V0NCIsImlhdCI6MTcwNTY0NjY2NywiZXhwIjoxNzA1NjUwMjY3fQ.aKmvOjcSN9yzRgJahqaAg6BqvnkSZn6kua5K44EKXwQ"
+}
+2024-01-19 12:14:29 INFO  OauthAuthenticationTest:74 End :: Get current auth user from token.
+2024-01-19 12:14:29 INFO  SSLAuthenticationTest:17 Start :: Test SSL Certificate for HTTPs
+2024-01-19 12:14:29 INFO  SSLAuthenticationTest:18 POST : URL https://dummyjson.com/auth/login
+2024-01-19 12:14:30 INFO  SSLAuthenticationTest:28 End :: Test SSL Certificate for HTTPs
+2024-01-19 12:14:30 INFO  SSLAuthenticationTest:33 Start :: Test2 SSL Certificate ignore for HTTP
+2024-01-19 12:14:30 INFO  SSLAuthenticationTest:34 POST : URL http://www.bupa.com.au/
+2024-01-19 12:14:30 INFO  SSLAuthenticationTest:43 End :: Test2 SSL Certificate ignore for HTTP

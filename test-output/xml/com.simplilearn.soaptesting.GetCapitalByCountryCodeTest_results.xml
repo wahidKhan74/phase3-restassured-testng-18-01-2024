@@ -4,13 +4,13 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.673">
+           time="5.053">
   <properties />
   
   
-            <testcase name="postXMLRequestTest" time="0.635" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
-                <testcase name="postXMLRequestTest" time="0.670" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
-                <testcase name="postXMLRequestTest" time="0.719" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
-                <testcase name="postXMLRequestTest" time="0.649" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
+            <testcase name="postXMLRequestTest" time="1.243" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
+                <testcase name="postXMLRequestTest" time="1.157" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
+                <testcase name="postXMLRequestTest" time="1.523" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
+                <testcase name="postXMLRequestTest" time="1.130" classname="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest" />
       
 </testsuite>

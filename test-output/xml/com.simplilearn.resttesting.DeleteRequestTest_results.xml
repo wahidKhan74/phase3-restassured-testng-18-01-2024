@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.585">
+           time="1.986">
   <properties />
   
   
-            <testcase name="putRequestTest" time="1.215" classname="com.simplilearn.resttesting.DeleteRequestTest" />
-                <testcase name="putRequestTest" time="1.182" classname="com.simplilearn.resttesting.DeleteRequestTest" />
-                <testcase name="putRequestTest" time="1.188" classname="com.simplilearn.resttesting.DeleteRequestTest" />
+            <testcase name="putRequestTest" time="0.683" classname="com.simplilearn.resttesting.DeleteRequestTest" />
+                <testcase name="putRequestTest" time="0.652" classname="com.simplilearn.resttesting.DeleteRequestTest" />
+                <testcase name="putRequestTest" time="0.651" classname="com.simplilearn.resttesting.DeleteRequestTest" />
       
 </testsuite>
