@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.664">
+           time="1.601">
   <properties />
   
   
-            <testcase name="postXMLRequestTest" time="3.664" classname="com.simplilearn.soaptesting.NumberToWordConversion" />
+            <testcase name="testListOfCountriesWithCountryCode" time="1.601" classname="com.simplilearn.soaptesting.ListOfCountriesWithCountryCodeTest" />
       
 </testsuite>

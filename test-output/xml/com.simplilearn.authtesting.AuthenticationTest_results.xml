@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.433">
+           time="1.738">
   <properties />
   
   
-            <testcase name="testAuthenticationToken" time="1.433" classname="com.simplilearn.authtesting.AuthenticationTest" />
+            <testcase name="testAuthenticationToken" time="1.738" classname="com.simplilearn.authtesting.AuthenticationTest" />
       
 </testsuite>

@@ -19,6 +19,7 @@
 		<classes>
 			<class name="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest"></class>
 			<class name="com.simplilearn.soaptesting.NumberToWordConversion"></class>
+			<class name="com.simplilearn.soaptesting.ListOfCountriesWithCountryCodeTest"></class>
 		</classes>
 	</test>
 	

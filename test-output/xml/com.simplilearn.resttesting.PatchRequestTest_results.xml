@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.334">
+           time="1.604">
   <properties />
   
   
-            <testcase name="putRequestTest" time="1.334" classname="com.simplilearn.resttesting.PatchRequestTest" />
+            <testcase name="putRequestTest" time="1.604" classname="com.simplilearn.resttesting.PatchRequestTest" />
       
 </testsuite>

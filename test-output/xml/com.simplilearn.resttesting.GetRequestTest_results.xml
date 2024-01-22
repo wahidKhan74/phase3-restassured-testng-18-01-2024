@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.847">
+           time="7.484">
   <properties />
   
   
-            <testcase name="getRequestTest" time="3.540" classname="com.simplilearn.resttesting.GetRequestTest" />
-                <testcase name="getRequestWithUserIdTest" time="0.611" classname="com.simplilearn.resttesting.GetRequestTest" />
-                <testcase name="getRequestWithQueryParmsTest" time="0.696" classname="com.simplilearn.resttesting.GetRequestTest" />
+            <testcase name="getRequestTest" time="5.474" classname="com.simplilearn.resttesting.GetRequestTest" />
+                <testcase name="getRequestWithQueryParmsTest" time="0.372" classname="com.simplilearn.resttesting.GetRequestTest" />
+                <testcase name="getRequestWithUserIdTest" time="1.638" classname="com.simplilearn.resttesting.GetRequestTest" />
       
 </testsuite>
